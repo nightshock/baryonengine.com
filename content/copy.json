@@ -1,0 +1,254 @@
+{
+ "format": "baryon-site-copy",
+ "note": "Every visible word of both pages, by id. The Russian says no more than the English: RED-2 checks parity id by id. Receipts stay verbatim English and are not here.",
+ "copy": {
+  "title": {
+   "en": "Baryon Engine",
+   "ru": "Baryon Engine"
+  },
+  "description": {
+   "en": "Baryon Engine: a world engine for real places on Earth, built so that everything has a cause. Its first world is an online game in the real Lake Quinault valley. Each claim names its exam.",
+   "ru": "Baryon Engine: движок мира для реальных мест на Земле, который строится так, чтобы у всего была причина. Его первый мир — онлайн-игра в настоящей долине озера Куинолт. Каждое утверждение называет свой экзамен."
+  },
+  "lang_link": {
+   "en": "Русский",
+   "ru": "English"
+  },
+  "hero_alt": {
+   "en": "Looking straight up tall conifer trunks into the canopy, rendered by the engine. No person is in the frame.",
+   "ru": "Взгляд прямо вверх вдоль высоких хвойных стволов в крону; кадр отрисован движком. Людей в кадре нет."
+  },
+  "h1_a": {
+   "en": "A world we are building",
+   "ru": "Мир, который мы строим"
+  },
+  "h1_b": {
+   "en": "on causes, not scripts.",
+   "ru": "на причинах, а не на скриптах."
+  },
+  "lede": {
+   "en": "A world engine for real places on Earth. Its first world is Baryon Genesis (working title), an online game in the real Lake Quinault valley. How far it holds today:",
+   "ru": "Движок мира для реальных мест на Земле. Его первый мир — Baryon Genesis (рабочее название), онлайн-игра в настоящей долине озера Куинолт. Насколько это верно сегодня:"
+  },
+  "claim_replay": {
+   "en": "A recorded session replays to the same 64-bit checksum.",
+   "ru": "Записанная сессия воспроизводится до той же 64-битной контрольной суммы."
+  },
+  "proof_water": {
+   "en": "In its exams, water follows the shallow-water equations; it is not yet live in the world.",
+   "ru": "В своих экзаменах вода следует уравнениям мелкой воды; в мире она пока не действует."
+  },
+  "proof_laws": {
+   "en": "Laws kept for a world's life: in work, its receipt waits for a run on main.",
+   "ru": "Законы, которые мир хранит всю жизнь: в работе, квитанция ждёт прогона на main."
+  },
+  "receipt": {
+   "en": "Receipt",
+   "ru": "Квитанция"
+  },
+  "exams_link": {
+   "en": "Exams",
+   "ru": "Экзамены"
+  },
+  "hero_caption": {
+   "en": "Rendered by the engine, build d912eae.",
+   "ru": "Отрисовано движком, сборка d912eae."
+  },
+  "frame_receipt": {
+   "en": "Frame receipt",
+   "ru": "Квитанция кадра"
+  },
+  "h2_engine": {
+   "en": "The engine, held to its exams",
+   "ru": "Движок и его экзамены"
+  },
+  "state_pass": {
+   "en": "passes today",
+   "ru": "проходит сегодня"
+  },
+  "state_work": {
+   "en": "in work",
+   "ru": "в работе"
+  },
+  "state_next": {
+   "en": "next",
+   "ru": "дальше"
+  },
+  "state_provenance": {
+   "en": "provenance",
+   "ru": "происхождение"
+  },
+  "state_fact": {
+   "en": "fact",
+   "ru": "факт"
+  },
+  "state_method": {
+   "en": "method",
+   "ru": "метод"
+  },
+  "claim_laws": {
+   "en": "Laws kept for a world's life",
+   "ru": "Законы, которые мир хранит всю жизнь"
+  },
+  "claim_journal": {
+   "en": "Journal refuses tampering",
+   "ru": "Журнал отвергает подделку"
+  },
+  "claim_boundary": {
+   "en": "Bounded observations",
+   "ru": "Ограниченные наблюдения"
+  },
+  "claim_resident": {
+   "en": "Residents learn from experience",
+   "ru": "Жители учатся на опыте"
+  },
+  "claim_water": {
+   "en": "In its exams, water follows the shallow-water equations: a dam break follows Ritter's 1892 exact solution with a profile L1 error under 3 %, and its wet front lags. It is not yet live in the world.",
+   "ru": "В своих экзаменах вода следует уравнениям мелкой воды: прорыв плотины следует точному решению Риттера 1892 года с ошибкой профиля L1 меньше 3 %, а фронт воды отстаёт. В мире она пока не действует."
+  },
+  "pending": {
+   "en": "receipt waits for a run on main",
+   "ru": "квитанция ждёт прогона на main"
+  },
+  "stage_label": {
+   "en": "Its first world: the Quinault valley, drawn from lidar",
+   "ru": "Его первый мир: долина Куинолт по данным лидара"
+  },
+  "relief_alt": {
+   "en": "Grey shaded relief of the Quinault valley, north up: Lake Quinault in black, the river entering from the north-east and leaving to the south-west, steep ridges to the east. Numbered marks on the south-east shore show where each frame was taken, with the direction it looks.",
+   "ru": "Серый теневой рельеф долины Куинолт, север сверху: озеро Куинолт чёрным, река входит с северо-востока и выходит на юго-запад, на востоке крутые хребты. Пронумерованные метки на юго-восточном берегу показывают, где снят каждый кадр и куда он смотрит."
+  },
+  "marks_label": {
+   "en": "Where each frame was taken",
+   "ru": "Где снят каждый кадр"
+  },
+  "h2_world": {
+   "en": "Its first world: a real valley",
+   "ru": "Его первый мир: настоящая долина"
+  },
+  "world_lede": {
+   "en": "Lake Quinault, Washington, from public USGS lidar at 1:1.",
+   "ru": "Озеро Куинолт, штат Вашингтон, по открытому лидару USGS в масштабе 1:1."
+  },
+  "legend_relief": {
+   "en": "Relief from the engine's lidar tiles, not a game frame.",
+   "ru": "Рельеф из лидарных тайлов движка, не игровой кадр."
+  },
+  "legend_static": {
+   "en": "Light from 315° at 45°.",
+   "ru": "Свет с азимута 315° под углом 45°."
+  },
+  "legend_live_a": {
+   "en": "Light",
+   "ru": "Свет"
+  },
+  "legend_live_b": {
+   "en": ": a lamp moved by scrolling, not the sun.",
+   "ru": ": лампа, которую двигает прокрутка, а не солнце."
+  },
+  "cue": {
+   "en": "Scroll",
+   "ru": "Листайте"
+  },
+  "frames_label": {
+   "en": "Rendered by the engine",
+   "ru": "Отрисовано движком"
+  },
+  "frame1_alt": {
+   "en": "Lake Quinault from its east end at eye height, looking west: grass in the foreground, a strip of still water, a wooded point at the left and a ridge at the right under a grey sky. No person is in the frame.",
+   "ru": "Озеро Куинолт с восточного конца на высоте глаз, вид на запад: трава на переднем плане, полоса спокойной воды, лесистый мыс слева и хребет справа под серым небом. Людей в кадре нет."
+  },
+  "frame1_cap": {
+   "en": "Lake Quinault, looking west.",
+   "ru": "Озеро Куинолт, вид на запад."
+  },
+  "frame1_note": {
+   "en": "Its surface is not yet the water law.",
+   "ru": "Его поверхность — пока не закон воды."
+  },
+  "frame2_alt": {
+   "en": "A grass clearing at eye height, looking south to the forest edge, with a ring of stones and two logs in the foreground under an overcast sky. No person is in the frame.",
+   "ru": "Травяная поляна на высоте глаз, вид на юг к опушке; на переднем плане кольцо из камней и два бревна, небо пасмурное. Людей в кадре нет."
+  },
+  "frame2_cap": {
+   "en": "The camp clearing.",
+   "ru": "Поляна лагеря."
+  },
+  "frame2_note": {
+   "en": "Its logs are still plain shapes.",
+   "ru": "Брёвна пока простые формы."
+  },
+  "frame3_alt": {
+   "en": "Looking straight up tall conifer trunks into the canopy against a pale sky. No person is in the frame.",
+   "ru": "Взгляд прямо вверх вдоль высоких хвойных стволов в крону на фоне бледного неба. Людей в кадре нет."
+  },
+  "frame3_cap": {
+   "en": "The canopy from below.",
+   "ru": "Крона снизу."
+  },
+  "frame3_note": {
+   "en": "Its branch stubs are still stylised.",
+   "ru": "Обрубки ветвей пока стилизованы."
+  },
+  "fact_ground": {
+   "en": "The ground is public USGS lidar at its true latitude, longitude and height. Height error is not yet tested.",
+   "ru": "Земля — открытый лидар USGS на её настоящих широте, долготе и высоте. Ошибка высоты пока не проверена."
+  },
+  "fact_nation": {
+   "en": "Lake Quinault lies within the Quinault Indian Reservation (U.S. Census boundary).",
+   "ru": "Озеро Куинолт лежит в пределах индейской резервации Куинолт (граница по данным Бюро переписи США)."
+  },
+  "fact_relief": {
+   "en": "How the relief above is drawn.",
+   "ru": "Как нарисован рельеф выше."
+  },
+  "h2_roadmap": {
+   "en": "Roadmap",
+   "ru": "Дорожная карта"
+  },
+  "roadmap_note": {
+   "en": "Milestones are in each track owner's own words, in English.",
+   "ru": "Этапы — словами владельцев направлений, на английском."
+  },
+  "aim": {
+   "en": "Not caused yet, and named so: bodies moved by animation clips, grove regrowth, forest transpiration, the parentless newborn and the plants' intake. Nothing in work or next is claimed until it passes its exam. The game is paused until bodies move by cause, and invites no one to play until then.",
+   "ru": "Пока не причинно, и мы так это и называем: тела, которые двигают анимационные клипы, отрастание рощ, транспирация леса, новорождённый без родителей и потребление растений. Ничто «в работе» или «дальше» не заявлено, пока не прошло экзамен. Игра на паузе, пока тела не начнут двигаться по причинам, и до тех пор никого не зовёт играть."
+  },
+  "footer_a": {
+   "en": "Baryon Engine is independent and non-commercial. This page sets no cookies and loads nothing from anyone else; its host, GitHub Pages, keeps its own server logs.",
+   "ru": "Baryon Engine — независимый некоммерческий проект. Эта страница не ставит cookie и ничего не загружает со сторонних сайтов; её хостинг, GitHub Pages, ведёт собственные серверные журналы."
+  },
+  "footer_b": {
+   "en": "Pictures and text: CC BY-NC-ND 4.0. Code: MIT. Terrain: USGS 3DEP and NHD, public domain.",
+   "ru": "Изображения и текст: CC BY-NC-ND 4.0. Код: MIT. Рельеф: USGS 3DEP и NHD, общественное достояние."
+  },
+  "more": {
+   "en": "More",
+   "ru": "Подробнее"
+  },
+  "epic": {
+   "en": "epic",
+   "ru": "эпик"
+  },
+  "draft_row": {
+   "en": "Milestones drafted by the website owner from the track owner's text; the owner's own list replaces them",
+   "ru": "Этапы набросал владелец сайта по тексту владельца направления; их заменит собственный список владельца"
+  },
+  "frame_word": {
+   "en": "Frame",
+   "ru": "Кадр"
+  },
+  "pin_lake": {
+   "en": "Lake Quinault, east end",
+   "ru": "Озеро Куинолт, восточный конец"
+  },
+  "pin_clearing": {
+   "en": "The camp clearing",
+   "ru": "Поляна лагеря"
+  },
+  "pin_canopy": {
+   "en": "The canopy from below",
+   "ru": "Крона снизу"
+  }
+ }
+}

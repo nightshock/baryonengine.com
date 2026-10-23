@@ -1,0 +1,24 @@
+{
+ "format": "baryon-site-manifest",
+ "files": {
+  "media/canopy/canopy-1440.jpg": "85857d704857da2a7f16d9ba14718e727bffa89086437bb053699f0bedaf7764",
+  "media/canopy/canopy-1440.webp": "c04346a3d017644e9b6e11bd626c17981c1ace2d2c5781f4d1d441573993e830",
+  "media/canopy/canopy-828.jpg": "ad0ca788e44631467ef7087ced50f4b23d1daaba56f8bba8b67bb049c5ee6a20",
+  "media/canopy/canopy-828.webp": "b896ccb0ebdda2d1169a48c68a200a89c16df031eb4288a9bfd451293ebb61f2",
+  "media/clearing/clearing-1440.jpg": "b174f6a5c704c6d2c2fdb949a55d8d78f9f72cc2a955933834240e5deaab24fb",
+  "media/clearing/clearing-1440.webp": "58317762426a19481fd87c33136ab20cc647a3a531cb912b77b4bbcb8a9e1edd",
+  "media/clearing/clearing-828.jpg": "5085d713e3f38f0b4870b0a1647b94e0673cc31fc98151749e9b71ae4da1e126",
+  "media/clearing/clearing-828.webp": "18cfbabbc1161c1d46d377139187dd74ca3381d0f975eae6de827401ace4f855",
+  "media/lake/lake-1320.jpg": "d171b88ea25ae9a280f387d607d2efe50cfeb42feb8f3909ba02e6e3661b9e19",
+  "media/lake/lake-1320.webp": "7809f9235be42be67af12bce0625a4f7975595e44b67c437b3cf9d77b5902833",
+  "media/lake/lake-828.jpg": "878fde0fff34d6d1dc50a48ed9500de01b6ea9f47166203498b09d17b82b7336",
+  "media/lake/lake-828.webp": "63d7de2b9b09aa1a82143fa78e1fe3a1d2184d72b7e82adbb5da3f07968cf3b5",
+  "media/relief/height-16m.png": "e8b678570eb1772a0ab211d1353ebe333231eddb02fb9881b9cbe84d2b9c3476",
+  "media/relief/height-8m.png": "ea7ee6f218052df3596042dab2badc8bd11532d94fcc65b72edae9447650bcd6",
+  "media/relief/relief-1280.webp": "89e1021887f74cae57346490fe1c0423be3267b1d19dce1d646561753a9a787d",
+  "media/relief/relief-1920.jpg": "611049176e40ec2afabc6191fd89e02687d277e7d287824ee92bca4495063c6a",
+  "media/relief/relief-1920.webp": "c550e145b563f5a8817b1da70bebc920666214c221f1aae462715e126d73233d",
+  "media/relief/relief-2560.webp": "67b16cad30ea340de3eecffbeacb8733919a8a3696a419b124a958250adc23c4",
+  "media/relief/relief-3750.webp": "69ebaa9e64c0b42befb154bf382d84ece6c1202e368ae28d3f71446a74eb6ba7"
+ }
+}

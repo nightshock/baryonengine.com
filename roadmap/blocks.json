@@ -1,0 +1,156 @@
+{
+ "blocks": {
+  "Animal calls": {
+   "milestones": [
+    [
+     "in work",
+     "owl hoot from bird physics"
+    ],
+    [
+     "next",
+     "owl calls at night"
+    ],
+    [
+     "next",
+     "forest falls silent near danger"
+    ]
+   ],
+   "summary": "Next, in order: one law of sound for a bird's vocal organ and tract, and for an insect's stridulation, with only each species' motor gestures fitted to openly licensed recordings. First a barred owl perched in the forest, calling at night and dawn, its call compared with published measurements and with held-out recordings in a blind test. Then a dawn songbird recorded at the valley in October, crickets only where the season and temperature allow, and alarm calls and silence when an animal perceives a predator or a person."
+  },
+  "Animals": {
+   "milestones": [
+    [
+     "in work",
+     "hair in wind and water"
+    ],
+    [
+     "next",
+     "hair touching skin and ground"
+    ],
+    [
+     "next",
+     "GPU cost per head"
+    ]
+   ],
+   "summary": "Next, in order: measure the cost of hair and fur on the GPU for each head, inside equal frame-time tiers. Add contact between strands, and between strands and the body, through the one contact law. Add the drag a fibre feels in still air when it oscillates (unsteady Stokes drag), the friction of air along a fibre, and the fibre's own material damping. Then strands drawn on a head, the law's first reader, and one review of the whole rod law. Later the same law carries grass, twigs and ropes."
+  },
+  "Bodies": {
+   "milestones": [
+    [
+     "in work",
+     "legs carry each measured body"
+    ],
+    [
+     "next",
+     "contact forces from matter"
+    ],
+    [
+     "next",
+     "falls and stepping over logs"
+    ],
+    [
+     "next",
+     "arms and hands that grip"
+    ]
+   ],
+   "summary": "Next, in order: contact between bodies and solids as forces from the matter that meets; stepping over logs and roots, and falls when a foot is caught; step timing from the body's own energy cost; arms and hands that reach and grip under the same law; segment masses from each body's own measurements instead of a sex label."
+  },
+  "Building": {
+   "milestones": [
+    [
+     "in work",
+     "building from felled logs"
+    ],
+    [
+     "next",
+     "first night survival"
+    ],
+    [
+     "next",
+     "autumn food"
+    ],
+    [
+     "next",
+     "character editor"
+    ]
+   ],
+   "summary": "Next, in order: a player lays out a building plan that no law reads, and real felled logs fill it one by one through the one construction law. Then the first night of a survival world: heat, fire and shelter decide whether a body reaches dawn. Then autumn food: a carried ration, then fish cooked on a fire. Then a character editor that sets a body's birth inputs inside the ANSUR II survey of US Army personnel, so that its build sets its gait, its load and its cold tolerance. That survey holds no elderly or disabled bodies, so the editor cannot make them yet; player bodies are always adults."
+  },
+  "Forest": {
+   "milestones": [
+    [
+     "in work",
+     "forest floor plant cover"
+    ],
+    [
+     "in work",
+     "one stem profile per tree"
+    ],
+    [
+     "next",
+     "missing species, standing dead"
+    ],
+    [
+     "next",
+     "berry shrubs, fruit in season"
+    ],
+    [
+     "next",
+     "trees beyond the lidar area"
+    ]
+   ],
+   "summary": "Next for the forest, in order: the measured plant cover of the forest floor at every distance; one stem profile per tree, read by contact, sight, fire warmth, wood and the drawn trunk; the missing species and standing dead trees; berry shrubs whose fruit is food in season; trees beyond the lidar survey area; leaves that change and fall with the seasons."
+  },
+  "Forest life": {
+   "milestones": [
+    [
+     "in work",
+     "tree mass from field data"
+    ],
+    [
+     "in work",
+     "tree growth from absorbed light"
+    ],
+    [
+     "next",
+     "seeds that take root"
+    ],
+    [
+     "next",
+     "dead trees that rot"
+    ],
+    [
+     "next",
+     "animals in the same book"
+    ]
+   ],
+   "summary": "Next for the life cycle, in order: measured trees that grow from the light they absorb and the water they take up, with the free regrowth of food removed; seeds that fall, wait for spring and take root by seedbed, best on rotting logs; dead trees that stand, fall and rot into the next seedbed; the same book for animals once bodies can be born and die; fungi that feed on decay or on living trees."
+  },
+  "Vehicles": {
+   "milestones": [
+    [
+     "in work",
+     "Pickup engine and gearbox"
+    ],
+    [
+     "in work",
+     "Fuel economy against EPA"
+    ],
+    [
+     "next",
+     "Park, reverse and starter"
+    ],
+    [
+     "next",
+     "Vehicles in the shared world"
+    ],
+    [
+     "next",
+     "Tyre rolling resistance measured"
+    ]
+   ],
+   "summary": "Next for aviation and vehicles, in order. The pickup gets a gear selector with park, reverse and neutral, and a starter, so a stalled engine or an empty tank can be recovered. Vehicles are then born in the shared world on its real terrain and breathe its air. The fuel-economy exams against public EPA measurements are reworked part by part, each declared part replaced only by a measured one chosen by a rule written beforehand. Then road-load measurement of tyre rolling resistance, more vehicles on the same law, and the airliner sharing it."
+  }
+ },
+ "format": "baryon-site-roadmap"
+}

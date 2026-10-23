@@ -1,0 +1,30 @@
+picture   Lake Quinault from its east end, looking west.
+build     d912eae4b, release build
+binary    sha256
+          55cb2dbe85ecfb852cc4fe8ddd2c7b3c215ad76a052594010cc2818139982000
+rendered  2026-10-22 19:37:37 UTC, Mac mini (Apple Silicon), exit 0
+camera    47.47518 N, 123.83198 W: the map location the photographer gave
+          a public photograph (Chris Light, "Lk Quinault (frm east)
+          1316.jpg", Wikimedia Commons); no GPS, error unknown; 1.6 m
+          above the ground (+/- 0.2 m); azimuth 265.4 deg true (+/- 0.0513
+          deg); pitch 0.0 deg (+/- 0.0138 deg); horizontal field of view
+          71.3 deg (+/- 1.5 deg); direction and pitch fitted to that
+          photograph's terrain skyline. No pixel of it is used.
+world     quinault-geo-v2; tick 311; world checksum cd08dd18752b50f8
+note      The lake shown is a surface at its recorded level, not the water
+          law.
+master    PNG, sha256
+          5d74b153550b6e6c89472e26dc9cb7503eb19646023ab058b955c2a57f969c1f
+transform crop 1320:900:120:0; resize lanczos; webp cwebp -q 82 -m 6
+          -metadata none; jpeg ffmpeg mjpeg q 3; no grade
+published lake-828.webp 828x564 sha256
+          63d7de2b9b09aa1a82143fa78e1fe3a1d2184d72b7e82adbb5da3f07968cf3b5
+published lake-828.jpg 828x564 sha256
+          878fde0fff34d6d1dc50a48ed9500de01b6ea9f47166203498b09d17b82b7336
+published lake-1320.webp 1320x900 sha256
+          7809f9235be42be67af12bce0625a4f7975595e44b67c437b3cf9d77b5902833
+published lake-1320.jpg 1320x900 sha256
+          d171b88ea25ae9a280f387d607d2efe50cfeb42feb8f3909ba02e6e3661b9e19
+checked   No person in frame, checked by eye at full size. The left 120 px
+          were cut because a dark shape there could not be told from a
+          sapling.

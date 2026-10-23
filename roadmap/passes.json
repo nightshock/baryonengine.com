@@ -1,0 +1,18 @@
+{
+ "format": "baryon-site-roadmap-passes",
+ "note": "Hand-written only. Each chip is a claim and names a receipt in receipts/ that ran on a main commit.",
+ "passes": {
+  "Engine": [
+   {
+    "label": "Replay to the same checksum",
+    "label_ru": "Повтор до той же контрольной суммы",
+    "receipt": "replay"
+   },
+   {
+    "label": "Water by shallow-water exams",
+    "label_ru": "Вода по экзаменам мелкой воды",
+    "receipt": "water"
+   }
+  ]
+ }
+}

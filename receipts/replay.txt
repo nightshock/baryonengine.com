@@ -1,0 +1,11 @@
+claim    A recorded session replays exactly, to the same 64-bit checksum.
+exam     GenesisBench --replay on the supported valley recording
+         (current world format; 600 ticks, 3 agents; recording sha256
+         dabb303a553284d1...)
+output   Replay verified: tick=600, agents=3, checksum=9e2da0cad58a9a33
+commit   b4246f42c1fc36ee594d5216f278cb2ceaa27d7f (main; the SHA the run
+         tested, from its "Validate inputs" step)
+date     2026-10-23 08:45 UTC
+machine  Mac mini (Apple Silicon), macOS, release build
+scope    One supported recording. Recordings in older world formats are
+         refused by design, not replayed.

@@ -1,0 +1,7 @@
+claim    Lake Quinault lies within the Quinault Indian Reservation (U.S.
+         Census boundary).
+boundary U.S. Census Bureau TIGERweb, American Indian / Alaska Native
+         areas: "Quinault Reservation", GEOID 3040; queried 2026-10-23.
+         Seven points on the lake fall inside it; the boundary follows the
+         shore, so the cameras on this page (on the shore) stand outside
+         it and the water in frame 1 is inside it.

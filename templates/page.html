@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="{{lang}}">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self'; img-src 'self'; media-src 'self'; font-src 'self'; connect-src 'none'; frame-src 'none'; form-action 'none'; base-uri 'none'">
+<meta name="referrer" content="no-referrer">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="dark">
+<title>{{title}}</title>
+<meta name="description" content="{{description}}">
+<link rel="alternate" hreflang="en" href="{{href_en}}">
+<link rel="alternate" hreflang="ru" href="{{href_ru}}">
+<link rel="icon" type="image/svg+xml" href="{{root}}assets/icon.svg">
+<link rel="stylesheet" href="{{root}}assets/site.css">
+<script type="module" src="{{root}}assets/site.js"></script>
+<script type="module" src="{{root}}assets/stage.js"></script>
+</head>
+<body>
+
+<header class="hero">
+  <nav class="lang"><a href="{{lang_href}}" hreflang="{{lang_other}}" lang="{{lang_other}}">{{lang_link}}</a></nav>
+  <picture class="hero-img">
+    <source type="image/webp" srcset="{{root}}media/canopy/canopy-828.webp 828w, {{root}}media/canopy/canopy-1440.webp 1440w" sizes="100vw">
+    <img src="{{root}}media/canopy/canopy-1440.jpg" width="1440" height="900" alt="{{hero_alt}}">
+  </picture>
+  <div class="hero-card">
+    <p class="mark-word">Baryon Engine</p>
+    <h1><span>{{h1_a}}</span> <span>{{h1_b}}</span></h1>
+    <p class="lede">{{lede}}</p>
+    <ol class="proofs">
+      <li><span class="dot is-pass" aria-hidden="true"></span>{{claim_replay}} <a href="#receipt-replay">{{receipt}}</a></li>
+      <li><span class="dot is-pass" aria-hidden="true"></span>{{proof_water}} <a href="#receipt-water">{{receipt}}</a></li>
+      <li><span class="dot is-work" aria-hidden="true"></span>{{proof_laws}} <a href="#engine">{{exams_link}}</a></li>
+    </ol>
+  </div>
+  <p class="hero-caption">{{hero_caption}} <a href="#receipt-frame-3">{{frame_receipt}}</a></p>
+</header>
+
+<main>
+  <section class="engine" id="engine">
+    <h2>{{h2_engine}}</h2>
+    <ol class="claims">
+      <li class="claim-row is-pass"><span class="chip-state">{{state_pass}}: </span><p>{{claim_replay}}</p><details class="receipt" id="receipt-replay"><summary>{{receipt}}</summary><pre data-receipt="replay"></pre></details></li>
+      <li class="claim-row is-work"><span class="chip-state">{{state_work}}: </span><p>{{claim_laws}}</p><span class="pending">{{pending}}</span></li>
+      <li class="claim-row is-work"><span class="chip-state">{{state_work}}: </span><p>{{claim_journal}}</p><span class="pending">{{pending}}</span></li>
+      <li class="claim-row is-work"><span class="chip-state">{{state_work}}: </span><p>{{claim_boundary}}</p><span class="pending">{{pending}}</span></li>
+      <li class="claim-row is-work"><span class="chip-state">{{state_work}}: </span><p>{{claim_resident}}</p><span class="pending">{{pending}}</span></li>
+      <li class="claim-row is-pass"><span class="chip-state">{{state_pass}}: </span><p>{{claim_water}}</p><details class="receipt" id="receipt-water"><summary>{{receipt}}</summary><pre data-receipt="water"></pre></details></li>
+    </ol>
+  </section>
+
+  <section class="stage" aria-label="{{stage_label}}">
+    <div class="stage-pin">
+      <div class="map">
+        <picture class="map-img">
+          <source type="image/webp" srcset="{{root}}media/relief/relief-1280.webp 1280w, {{root}}media/relief/relief-1920.webp 1920w, {{root}}media/relief/relief-2560.webp 2560w, {{root}}media/relief/relief-3750.webp 3750w" sizes="100vw">
+          <img src="{{root}}media/relief/relief-1920.jpg" width="3750" height="2000" loading="lazy" alt="{{relief_alt}}">
+        </picture>
+        <canvas class="map-gl" aria-hidden="true"></canvas>
+        <svg class="map-svg" viewBox="0 0 15000 8000" preserveAspectRatio="xMidYMid slice" role="group" aria-label="{{marks_label}}">
+<!-- marks:begin -->
+<!-- marks:end -->
+        </svg>
+      </div>
+      <div class="title-card">
+        <h2>{{h2_world}}</h2>
+        <p class="lede">{{world_lede}}</p>
+      </div>
+      <p class="legend"><span>47.47° N, 123.84° W</span><span>{{legend_relief}} <span class="static-only">{{legend_static}}</span><span class="live-only">{{legend_live_a}} <b data-light>95° at 4°</b>{{legend_live_b}}</span> <a href="#receipt-relief">{{receipt}}</a></span></p>
+      <p class="cue" aria-hidden="true">{{cue}}</p>
+    </div>
+  </section>
+
+  <section class="frames" aria-label="{{frames_label}}">
+    <figure id="frame-1">
+      <picture>
+        <source type="image/webp" srcset="{{root}}media/lake/lake-828.webp 828w, {{root}}media/lake/lake-1320.webp 1320w" sizes="(max-width: 760px) 100vw, 33vw">
+        <img src="{{root}}media/lake/lake-1320.jpg" srcset="{{root}}media/lake/lake-828.jpg 828w, {{root}}media/lake/lake-1320.jpg 1320w" sizes="(max-width: 760px) 100vw, 33vw" width="1320" height="900" alt="{{frame1_alt}}">
+      </picture>
+      <figcaption><span class="n">1</span><span>{{frame1_cap}} <em>{{frame1_note}}</em></span></figcaption>
+      <details class="receipt" id="receipt-frame-1"><summary>{{receipt}}</summary><pre data-receipt="frame-lake"></pre></details>
+    </figure>
+    <figure id="frame-2">
+      <picture>
+        <source type="image/webp" srcset="{{root}}media/clearing/clearing-828.webp 828w, {{root}}media/clearing/clearing-1440.webp 1440w" sizes="(max-width: 760px) 100vw, 33vw">
+        <img src="{{root}}media/clearing/clearing-1440.jpg" srcset="{{root}}media/clearing/clearing-828.jpg 828w, {{root}}media/clearing/clearing-1440.jpg 1440w" sizes="(max-width: 760px) 100vw, 33vw" width="1440" height="900" alt="{{frame2_alt}}" loading="lazy">
+      </picture>
+      <figcaption><span class="n">2</span><span>{{frame2_cap}} <em>{{frame2_note}}</em></span></figcaption>
+      <details class="receipt" id="receipt-frame-2"><summary>{{receipt}}</summary><pre data-receipt="frame-clearing"></pre></details>
+    </figure>
+    <figure id="frame-3">
+      <picture>
+        <source type="image/webp" srcset="{{root}}media/canopy/canopy-828.webp 828w, {{root}}media/canopy/canopy-1440.webp 1440w" sizes="(max-width: 760px) 100vw, 33vw">
+        <img src="{{root}}media/canopy/canopy-1440.jpg" srcset="{{root}}media/canopy/canopy-828.jpg 828w, {{root}}media/canopy/canopy-1440.jpg 1440w" sizes="(max-width: 760px) 100vw, 33vw" width="1440" height="900" alt="{{frame3_alt}}" loading="lazy">
+      </picture>
+      <figcaption><span class="n">3</span><span>{{frame3_cap}} <em>{{frame3_note}}</em></span></figcaption>
+      <details class="receipt" id="receipt-frame-3"><summary>{{receipt}}</summary><pre data-receipt="frame-canopy"></pre></details>
+    </figure>
+  </section>
+
+  <section class="place" id="place">
+    <ol class="claims">
+      <li class="claim-row is-fact"><span class="chip-state">{{state_provenance}}: </span><p>{{fact_ground}}</p><details class="receipt" id="receipt-valley"><summary>{{receipt}}</summary><pre data-receipt="valley"></pre></details></li>
+      <li class="claim-row is-fact"><span class="chip-state">{{state_fact}}: </span><p>{{fact_nation}}</p><details class="receipt" id="receipt-quinault-nation"><summary>{{receipt}}</summary><pre data-receipt="quinault-nation"></pre></details></li>
+      <li class="claim-row is-fact"><span class="chip-state">{{state_method}}: </span><p>{{fact_relief}}</p><details class="receipt" id="receipt-relief"><summary>{{receipt}}</summary><pre data-receipt="relief"></pre></details></li>
+    </ol>
+  </section>
+
+  <section class="road" id="roadmap">
+    <h2>{{h2_roadmap}}</h2>
+    <p class="legend-inline"><span class="chip is-pass">{{state_pass}}</span><span class="chip is-work">{{state_work}}</span><span class="chip is-next">{{state_next}}</span></p>
+    <!-- roadmap:begin -->
+    <!-- roadmap:end -->
+    <p class="aim">{{aim}}</p>
+  </section>
+</main>
+
+<footer>
+  <p>{{footer_a}}</p>
+  <p>{{footer_b}}</p>
+</footer>
+
+</body>
+</html>

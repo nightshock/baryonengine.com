@@ -1,0 +1,79 @@
+{
+ "format": "baryon-site-relief",
+ "formatVersion": 1,
+ "manifest": {
+  "id": "quinault-geo-v2",
+  "sha256": "14b0a41d853490763d1ba814067538353f445e2618f448d52c9e6b13de00e71c"
+ },
+ "layer": "fine",
+ "tilesUsed": 120,
+ "tilesSHA256": "31bc277bdf6cb5b367f1cd5f0e0e912c8dcc43b6931e51d580288b47e9863e9d",
+ "extent_m": {
+  "west": -4000.0,
+  "east": 11000.0,
+  "south": -4000.0,
+  "north": 4000.0
+ },
+ "frame": "+proj=tmerc +lat_0=47.475 +lon_0=-123.865 +k_0=1 +x_0=0 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+ "pixels": {
+  "width": 3750,
+  "height": 2000,
+  "metresPerPixel": 4.0,
+  "greySHA256": "d04bb6559e15efc15608402ff79393b8334e34c83119d34f29969e1d33121076",
+  "waterCells": 969549,
+  "noDataCells": 0,
+  "blackCells": 969549,
+  "landFloorGrey": 24
+ },
+ "method": "2x2 block mean of the 2 m lattice; Horn (1981) hillshade, light azimuth 315 deg, altitude 45 deg; land grey 24 + 231 * max(0, cos); lake and river nodes (hydro-flattened, bed unknown) black (0); no colour, atmosphere or grade",
+ "pins": [
+  {
+   "id": "lake",
+   "label": "Lake Quinault, east end",
+   "x_m": 2489.056195208711,
+   "z_m": 20.296632949262857,
+   "azimuth_deg": 265.41,
+   "hfov_deg": 71.3,
+   "left_pct": 43.26,
+   "top_pct": 49.75
+  },
+  {
+   "id": "clearing",
+   "label": "The camp clearing",
+   "x_m": 1798.0029992399755,
+   "z_m": -524.0048917941749,
+   "azimuth_deg": 180.0,
+   "hfov_deg": 71.3,
+   "left_pct": 38.65,
+   "top_pct": 56.55
+  },
+  {
+   "id": "canopy",
+   "label": "The canopy from below",
+   "x_m": 1800.0505985024522,
+   "z_m": -416.3708773050457,
+   "azimuth_deg": 0.0,
+   "hfov_deg": 63.0,
+   "left_pct": 38.67,
+   "top_pct": 55.2
+  }
+ ],
+ "heightmap": {
+  "file": "height-8m.png",
+  "width": 1875,
+  "height": 1000,
+  "metresPerPixel": 8.0,
+  "encoding": "R*256+G = height above NAVD88 0 in 0.05 m steps; B = 255 water",
+  "method": "2x2 mean of the 4 m cells; water if 2 of 4 are water",
+  "minHeight_m": 49.72,
+  "maxHeight_m": 1376.13,
+  "rgbSHA256": "87afc2b599b109d850164dedd586d16eb506ed8743a60685afb2d514a795ea93",
+  "phone": {
+   "file": "height-16m.png",
+   "width": 937,
+   "height": 500,
+   "metresPerPixel": 16.0,
+   "rgbSHA256": "a7ab9fcf1c396ed8cb018aa6470f30e69d19004f98ac6de8d3151d27ed8daa02"
+  }
+ }
+}

@@ -1,0 +1,19 @@
+claim    In its exams, water follows the shallow-water equations. It is not
+         yet live in the world shown on this page.
+law      shallowWaterSemiImplicitV1 (Casulli 1990)
+exams    WaterFieldTests: 10 tests, 0 failures, among them
+           still water over a bumpy bed does not move
+           mass is conserved exactly while water runs downhill
+           a dam break follows Ritter's solution at both clocks
+           rain on a slope settles to the kinematic-wave sheet
+           a channel settles at Manning's normal depth
+output   EXAM damBreak L1 k=1 0.02653561303221988 k=48 0.02715297851681398
+           front k=1 290.0 m k=48 238.0 m exact 300.62948358402906 m
+         EXAM kinematicSheet step=500 ms L1 0.001962163068997887
+         TOTAL: passed=10 failed=0 skipped=0
+commit   b4246f42c1fc36ee594d5216f278cb2ceaa27d7f (main; the SHA the run
+         tested, from its "Validate inputs" step)
+date     2026-10-23 09:30 UTC
+machine  Mac mini (Apple Silicon), macOS
+note     the profile's L1 error is 2.7 %; the wet front lags the exact one
+         (238 m against 301 m at the 48x clock), as the output line shows

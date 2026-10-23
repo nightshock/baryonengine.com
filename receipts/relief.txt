@@ -1,0 +1,39 @@
+picture   The valley's relief, drawn from the engine's terrain tiles (USGS
+          lidar). Not a game frame.
+manifest  quinault-geo-v2, sha256
+          14b0a41d853490763d1ba814067538353f445e2618f448d52c9e6b13de00e71c
+tiles     120 fine tiles at 2 m, each checked against the manifest;
+          their hashes in order hash to 31bc277bdf6cb5b3
+extent    15 x 8 km, north up, 4 m per pixel
+method    2 x 2 block mean of the 2 m nodes; Horn (1981) hillshade, light
+          from azimuth 315 deg at 45 deg altitude; land grey 24 + 231 x
+          max(0, cos), so black is water only: lake and river nodes, which
+          the survey flattens and whose bed is unknown; no colour,
+          atmosphere or grade
+check     969549 black cells = 969549 water + 0 no-data cells
+tool      tools/relief.py in this repository, Python standard library only
+master    PNG 3750 x 2000 grey, sha256
+          fac0857517e0b04214a5843cb539f9580ee9cd883c70f9f43a4e68f06c9591ea
+          pixel data sha256 d04bb6559e15efc15608402ff79393b8334e34c83119d34f29969e1d33121076
+published relief-1280.webp 1280x682 sha256
+          89e1021887f74cae57346490fe1c0423be3267b1d19dce1d646561753a9a787d
+published relief-1920.webp 1920x1024 sha256
+          c550e145b563f5a8817b1da70bebc920666214c221f1aae462715e126d73233d
+published relief-1920.jpg 1920x1024 sha256
+          611049176e40ec2afabc6191fd89e02687d277e7d287824ee92bca4495063c6a
+published relief-2560.webp 2560x1366 sha256
+          67b16cad30ea340de3eecffbeacb8733919a8a3696a419b124a958250adc23c4
+published relief-3750.webp 3750x2000 sha256
+          69ebaa9e64c0b42befb154bf382d84ece6c1202e368ae28d3f71446a74eb6ba7
+heights   height-8m.png 1875 x 1000, 8 m; height-16m.png 937 x 500, 16 m (phones)
+          R x 256 + G = height above NAVD88 0 in 5 cm steps; B = 255 for water;
+          means of the cells above; lit live in your browser by the same
+          method (Horn's 3 x 3 kernel, grey 24 + 231 x max(0, cos)) from
+          these heights, with a lamp moved as you scroll (not the sun)
+          rgb sha256 87afc2b599b109d850164dedd586d16eb506ed8743a60685afb2d514a795ea93
+                     a7ab9fcf1c396ed8cb018aa6470f30e69d19004f98ac6de8d3151d27ed8daa02
+published height-8m.png sha256
+          ea7ee6f218052df3596042dab2badc8bd11532d94fcc65b72edae9447650bcd6
+published height-16m.png sha256
+          e8b678570eb1772a0ab211d1353ebe333231eddb02fb9881b9cbe84d2b9c3476
+marks     camera positions and fields of view copied from each frame's receipt

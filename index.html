@@ -1,0 +1,296 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self'; img-src 'self'; media-src 'self'; font-src 'self'; connect-src 'none'; frame-src 'none'; form-action 'none'; base-uri 'none'">
+<meta name="referrer" content="no-referrer">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="dark">
+<title>Baryon Engine</title>
+<meta name="description" content="Baryon Engine: a world engine for real places on Earth, built so that everything has a cause. Its first world is an online game in the real Lake Quinault valley. Each claim names its exam.">
+<link rel="alternate" hreflang="en" href="./">
+<link rel="alternate" hreflang="ru" href="ru/">
+<link rel="icon" type="image/svg+xml" href="assets/icon.svg">
+<link rel="stylesheet" href="assets/site.css">
+<script type="module" src="assets/site.js"></script>
+<script type="module" src="assets/stage.js"></script>
+</head>
+<body>
+
+<header class="hero">
+  <nav class="lang"><a href="ru/" hreflang="ru" lang="ru">Русский</a></nav>
+  <picture class="hero-img">
+    <source type="image/webp" srcset="media/canopy/canopy-828.webp 828w, media/canopy/canopy-1440.webp 1440w" sizes="100vw">
+    <img src="media/canopy/canopy-1440.jpg" width="1440" height="900" alt="Looking straight up tall conifer trunks into the canopy, rendered by the engine. No person is in the frame.">
+  </picture>
+  <div class="hero-card">
+    <p class="mark-word">Baryon Engine</p>
+    <h1><span>A world we are building</span> <span>on causes, not scripts.</span></h1>
+    <p class="lede">A world engine for real places on Earth. Its first world is Baryon Genesis (working title), an online game in the real Lake Quinault valley. How far it holds today:</p>
+    <ol class="proofs">
+      <li><span class="dot is-pass" aria-hidden="true"></span>A recorded session replays to the same 64-bit checksum. <a href="#receipt-replay">Receipt</a></li>
+      <li><span class="dot is-pass" aria-hidden="true"></span>In its exams, water follows the shallow-water equations; it is not yet live in the world. <a href="#receipt-water">Receipt</a></li>
+      <li><span class="dot is-work" aria-hidden="true"></span>Laws kept for a world&#x27;s life: in work, its receipt waits for a run on main. <a href="#engine">Exams</a></li>
+    </ol>
+  </div>
+  <p class="hero-caption">Rendered by the engine, build d912eae. <a href="#receipt-frame-3">Frame receipt</a></p>
+</header>
+
+<main>
+  <section class="engine" id="engine">
+    <h2>The engine, held to its exams</h2>
+    <ol class="claims">
+      <li class="claim-row is-pass"><span class="chip-state">passes today: </span><p>A recorded session replays to the same 64-bit checksum.</p><details class="receipt" id="receipt-replay"><summary>Receipt</summary><pre data-receipt="replay">claim    A recorded session replays exactly, to the same 64-bit checksum.
+exam     GenesisBench --replay on the supported valley recording
+         (current world format; 600 ticks, 3 agents; recording sha256
+         dabb303a553284d1...)
+output   Replay verified: tick=600, agents=3, checksum=9e2da0cad58a9a33
+commit   b4246f42c1fc36ee594d5216f278cb2ceaa27d7f (main; the SHA the run
+         tested, from its "Validate inputs" step)
+date     2026-10-23 08:45 UTC
+machine  Mac mini (Apple Silicon), macOS, release build
+scope    One supported recording. Recordings in older world formats are
+         refused by design, not replayed.</pre></details></li>
+      <li class="claim-row is-work"><span class="chip-state">in work: </span><p>Laws kept for a world&#x27;s life</p><span class="pending">receipt waits for a run on main</span></li>
+      <li class="claim-row is-work"><span class="chip-state">in work: </span><p>Journal refuses tampering</p><span class="pending">receipt waits for a run on main</span></li>
+      <li class="claim-row is-work"><span class="chip-state">in work: </span><p>Bounded observations</p><span class="pending">receipt waits for a run on main</span></li>
+      <li class="claim-row is-work"><span class="chip-state">in work: </span><p>Residents learn from experience</p><span class="pending">receipt waits for a run on main</span></li>
+      <li class="claim-row is-pass"><span class="chip-state">passes today: </span><p>In its exams, water follows the shallow-water equations: a dam break follows Ritter&#x27;s 1892 exact solution with a profile L1 error under 3 %, and its wet front lags. It is not yet live in the world.</p><details class="receipt" id="receipt-water"><summary>Receipt</summary><pre data-receipt="water">claim    In its exams, water follows the shallow-water equations. It is not
+         yet live in the world shown on this page.
+law      shallowWaterSemiImplicitV1 (Casulli 1990)
+exams    WaterFieldTests: 10 tests, 0 failures, among them
+           still water over a bumpy bed does not move
+           mass is conserved exactly while water runs downhill
+           a dam break follows Ritter's solution at both clocks
+           rain on a slope settles to the kinematic-wave sheet
+           a channel settles at Manning's normal depth
+output   EXAM damBreak L1 k=1 0.02653561303221988 k=48 0.02715297851681398
+           front k=1 290.0 m k=48 238.0 m exact 300.62948358402906 m
+         EXAM kinematicSheet step=500 ms L1 0.001962163068997887
+         TOTAL: passed=10 failed=0 skipped=0
+commit   b4246f42c1fc36ee594d5216f278cb2ceaa27d7f (main; the SHA the run
+         tested, from its "Validate inputs" step)
+date     2026-10-23 09:30 UTC
+machine  Mac mini (Apple Silicon), macOS
+note     the profile's L1 error is 2.7 %; the wet front lags the exact one
+         (238 m against 301 m at the 48x clock), as the output line shows</pre></details></li>
+    </ol>
+  </section>
+
+  <section class="stage" aria-label="Its first world: the Quinault valley, drawn from lidar">
+    <div class="stage-pin">
+      <div class="map">
+        <picture class="map-img">
+          <source type="image/webp" srcset="media/relief/relief-1280.webp 1280w, media/relief/relief-1920.webp 1920w, media/relief/relief-2560.webp 2560w, media/relief/relief-3750.webp 3750w" sizes="100vw">
+          <img src="media/relief/relief-1920.jpg" width="3750" height="2000" loading="lazy" alt="Grey shaded relief of the Quinault valley, north up: Lake Quinault in black, the river entering from the north-east and leaving to the south-west, steep ridges to the east. Numbered marks on the south-east shore show where each frame was taken, with the direction it looks.">
+        </picture>
+        <canvas class="map-gl" aria-hidden="true"></canvas>
+        <svg class="map-svg" viewBox="0 0 15000 8000" preserveAspectRatio="xMidYMid slice" role="group" aria-label="Where each frame was taken">
+<!-- marks:begin -->
+<a class="mark" href="#frame-1" aria-label="Frame 1: Lake Quinault, east end"><path class="cone" pathLength="1" d="M6489.1 3979.7L5954.7 4431.9A700 700 0 0 1 5889.4 3618.5Z"/><g transform="translate(6489.1 3979.7)"><g class="mark-scale"><circle r="5.5"/><text x="10" y="-10" text-anchor="start">1</text></g></g></a>
+<a class="mark" href="#frame-2" aria-label="Frame 2: The camp clearing"><path class="cone" pathLength="1" d="M5798.0 4524.0L6206.0 5092.8A700 700 0 0 1 5390.0 5092.8Z"/><g transform="translate(5798.0 4524.0)"><g class="mark-scale"><circle r="5.5"/><text x="-10" y="20" text-anchor="end">2</text></g></g></a>
+<a class="mark" href="#frame-3" aria-label="Frame 3: The canopy from below"><path class="cone" pathLength="1" d="M5800.1 4416.4L5434.3 3819.5A700 700 0 0 1 6165.8 3819.5Z"/><g transform="translate(5800.1 4416.4)"><g class="mark-scale"><circle r="5.5"/><text x="-10" y="-10" text-anchor="end">3</text></g></g></a>
+<!-- marks:end -->
+        </svg>
+      </div>
+      <div class="title-card">
+        <h2>Its first world: a real valley</h2>
+        <p class="lede">Lake Quinault, Washington, from public USGS lidar at 1:1.</p>
+      </div>
+      <p class="legend"><span>47.47° N, 123.84° W</span><span>Relief from the engine&#x27;s lidar tiles, not a game frame. <span class="static-only">Light from 315° at 45°.</span><span class="live-only">Light <b data-light>95° at 4°</b>: a lamp moved by scrolling, not the sun.</span> <a href="#receipt-relief">Receipt</a></span></p>
+      <p class="cue" aria-hidden="true">Scroll</p>
+    </div>
+  </section>
+
+  <section class="frames" aria-label="Rendered by the engine">
+    <figure id="frame-1">
+      <picture>
+        <source type="image/webp" srcset="media/lake/lake-828.webp 828w, media/lake/lake-1320.webp 1320w" sizes="(max-width: 760px) 100vw, 33vw">
+        <img src="media/lake/lake-1320.jpg" srcset="media/lake/lake-828.jpg 828w, media/lake/lake-1320.jpg 1320w" sizes="(max-width: 760px) 100vw, 33vw" width="1320" height="900" alt="Lake Quinault from its east end at eye height, looking west: grass in the foreground, a strip of still water, a wooded point at the left and a ridge at the right under a grey sky. No person is in the frame.">
+      </picture>
+      <figcaption><span class="n">1</span><span>Lake Quinault, looking west. <em>Its surface is not yet the water law.</em></span></figcaption>
+      <details class="receipt" id="receipt-frame-1"><summary>Receipt</summary><pre data-receipt="frame-lake">picture   Lake Quinault from its east end, looking west.
+build     d912eae4b, release build
+binary    sha256
+          55cb2dbe85ecfb852cc4fe8ddd2c7b3c215ad76a052594010cc2818139982000
+rendered  2026-10-22 19:37:37 UTC, Mac mini (Apple Silicon), exit 0
+camera    47.47518 N, 123.83198 W: the map location the photographer gave
+          a public photograph (Chris Light, "Lk Quinault (frm east)
+          1316.jpg", Wikimedia Commons); no GPS, error unknown; 1.6 m
+          above the ground (+/- 0.2 m); azimuth 265.4 deg true (+/- 0.0513
+          deg); pitch 0.0 deg (+/- 0.0138 deg); horizontal field of view
+          71.3 deg (+/- 1.5 deg); direction and pitch fitted to that
+          photograph's terrain skyline. No pixel of it is used.
+world     quinault-geo-v2; tick 311; world checksum cd08dd18752b50f8
+note      The lake shown is a surface at its recorded level, not the water
+          law.
+master    PNG, sha256
+          5d74b153550b6e6c89472e26dc9cb7503eb19646023ab058b955c2a57f969c1f
+transform crop 1320:900:120:0; resize lanczos; webp cwebp -q 82 -m 6
+          -metadata none; jpeg ffmpeg mjpeg q 3; no grade
+published lake-828.webp 828x564 sha256
+          63d7de2b9b09aa1a82143fa78e1fe3a1d2184d72b7e82adbb5da3f07968cf3b5
+published lake-828.jpg 828x564 sha256
+          878fde0fff34d6d1dc50a48ed9500de01b6ea9f47166203498b09d17b82b7336
+published lake-1320.webp 1320x900 sha256
+          7809f9235be42be67af12bce0625a4f7975595e44b67c437b3cf9d77b5902833
+published lake-1320.jpg 1320x900 sha256
+          d171b88ea25ae9a280f387d607d2efe50cfeb42feb8f3909ba02e6e3661b9e19
+checked   No person in frame, checked by eye at full size. The left 120 px
+          were cut because a dark shape there could not be told from a
+          sapling.</pre></details>
+    </figure>
+    <figure id="frame-2">
+      <picture>
+        <source type="image/webp" srcset="media/clearing/clearing-828.webp 828w, media/clearing/clearing-1440.webp 1440w" sizes="(max-width: 760px) 100vw, 33vw">
+        <img src="media/clearing/clearing-1440.jpg" srcset="media/clearing/clearing-828.jpg 828w, media/clearing/clearing-1440.jpg 1440w" sizes="(max-width: 760px) 100vw, 33vw" width="1440" height="900" alt="A grass clearing at eye height, looking south to the forest edge, with a ring of stones and two logs in the foreground under an overcast sky. No person is in the frame." loading="lazy">
+      </picture>
+      <figcaption><span class="n">2</span><span>The camp clearing. <em>Its logs are still plain shapes.</em></span></figcaption>
+      <details class="receipt" id="receipt-frame-2"><summary>Receipt</summary><pre data-receipt="frame-clearing">picture   The camp clearing near the south shore, looking south to the
+          forest edge.
+build     d912eae4b, release build
+binary    sha256
+          55cb2dbe85ecfb852cc4fe8ddd2c7b3c215ad76a052594010cc2818139982000
+rendered  2026-10-22 19:34:29 UTC, Mac mini (Apple Silicon), exit 0
+camera    47.47028 N, 123.84115 W (+/- 1 m); 1.6 m above the ground (+/-
+          0.05 m); azimuth 180.0 deg true (+/- 0.5 deg); pitch -4.0 deg
+          (+/- 0.5 deg); horizontal field of view 71.3 deg (+/- 1 deg)
+world     quinault-geo-v2; tick 291; world checksum 6edab2fc41afc31
+note      The stone ring and the logs are still plain shapes.
+master    PNG, sha256
+          e364a2a1ab9484f129c776e0de81b3651d1bf9cf13668f2892c99204c45a0995
+transform crop none; resize lanczos; webp cwebp -q 82 -m 6 -metadata none;
+          jpeg ffmpeg mjpeg q 3; no grade
+published clearing-828.webp 828x518 sha256
+          18cfbabbc1161c1d46d377139187dd74ca3381d0f975eae6de827401ace4f855
+published clearing-828.jpg 828x518 sha256
+          5085d713e3f38f0b4870b0a1647b94e0673cc31fc98151749e9b71ae4da1e126
+published clearing-1440.webp 1440x900 sha256
+          58317762426a19481fd87c33136ab20cc647a3a531cb912b77b4bbcb8a9e1edd
+published clearing-1440.jpg 1440x900 sha256
+          b174f6a5c704c6d2c2fdb949a55d8d78f9f72cc2a955933834240e5deaab24fb
+checked   No person in frame. The dark shapes at the forest edge are
+          ferns, checked under magnification.</pre></details>
+    </figure>
+    <figure id="frame-3">
+      <picture>
+        <source type="image/webp" srcset="media/canopy/canopy-828.webp 828w, media/canopy/canopy-1440.webp 1440w" sizes="(max-width: 760px) 100vw, 33vw">
+        <img src="media/canopy/canopy-1440.jpg" srcset="media/canopy/canopy-828.jpg 828w, media/canopy/canopy-1440.jpg 1440w" sizes="(max-width: 760px) 100vw, 33vw" width="1440" height="900" alt="Looking straight up tall conifer trunks into the canopy against a pale sky. No person is in the frame." loading="lazy">
+      </picture>
+      <figcaption><span class="n">3</span><span>The canopy from below. <em>Its branch stubs are still stylised.</em></span></figcaption>
+      <details class="receipt" id="receipt-frame-3"><summary>Receipt</summary><pre data-receipt="frame-canopy">picture   The canopy, seen from below.
+build     d912eae4b, release build
+binary    sha256
+          55cb2dbe85ecfb852cc4fe8ddd2c7b3c215ad76a052594010cc2818139982000
+rendered  2026-10-22 19:37:04 UTC, Mac mini (Apple Silicon), exit 0
+camera    47.47125 N, 123.84112 W (+/- 1 m); 1.6 m above the ground (+/-
+          0.05 m); azimuth 0.0 deg true (+/- 0.5 deg); pitch 62.0 deg (+/-
+          0.5 deg); horizontal field of view 63.0 deg (+/- 1 deg)
+world     quinault-geo-v2; tick 356; world checksum c426ac687bb49015
+note      The branch stubs are still stylised.
+master    PNG, sha256
+          8127f201d57e4b4a7c8789b3706f250a4644b4782cdbc1a046b41b01b89ffdc1
+transform crop none; resize lanczos; webp cwebp -q 82 -m 6 -metadata none;
+          jpeg ffmpeg mjpeg q 3; no grade
+published canopy-828.webp 828x518 sha256
+          b896ccb0ebdda2d1169a48c68a200a89c16df031eb4288a9bfd451293ebb61f2
+published canopy-828.jpg 828x518 sha256
+          ad0ca788e44631467ef7087ced50f4b23d1daaba56f8bba8b67bb049c5ee6a20
+published canopy-1440.webp 1440x900 sha256
+          c04346a3d017644e9b6e11bd626c17981c1ace2d2c5781f4d1d441573993e830
+published canopy-1440.jpg 1440x900 sha256
+          85857d704857da2a7f16d9ba14718e727bffa89086437bb053699f0bedaf7764
+checked   No person in frame, checked by eye at full size.</pre></details>
+    </figure>
+  </section>
+
+  <section class="place" id="place">
+    <ol class="claims">
+      <li class="claim-row is-fact"><span class="chip-state">provenance: </span><p>The ground is public USGS lidar at its true latitude, longitude and height. Height error is not yet tested.</p><details class="receipt" id="receipt-valley"><summary>Receipt</summary><pre data-receipt="valley">claim    The valley is the real Lake Quinault, Washington, at 1:1. Its ground
+         is public USGS lidar, set at its true latitude, longitude and height.
+kind     provenance, not an exam
+ground   USGS 3D Elevation Program 1 m lidar, Olympic Peninsula 2017
+         (vendor Quantum Spatial); USGS 1/3 arc-second DEM beyond it.
+         U.S. Government works, public domain.
+lake     USGS National Hydrography Dataset: Lake Quinault, GNIS 01531495
+grid     2 m over 15 x 8 km around the lake, 32 m beyond
+datum    NAD83(2011); heights NAVD88
+frame    +proj=tmerc +lat_0=47.475 +lon_0=-123.865 +k_0=1 +ellps=GRS80
+manifest quinault-geo-v2
+         sha256 14b0a41d853490763d1ba814067538353f445e2618f448d52c9e6b13de00e71c
+untested height error against survey benchmarks</pre></details></li>
+      <li class="claim-row is-fact"><span class="chip-state">fact: </span><p>Lake Quinault lies within the Quinault Indian Reservation (U.S. Census boundary).</p><details class="receipt" id="receipt-quinault-nation"><summary>Receipt</summary><pre data-receipt="quinault-nation">claim    Lake Quinault lies within the Quinault Indian Reservation (U.S.
+         Census boundary).
+boundary U.S. Census Bureau TIGERweb, American Indian / Alaska Native
+         areas: "Quinault Reservation", GEOID 3040; queried 2026-10-23.
+         Seven points on the lake fall inside it; the boundary follows the
+         shore, so the cameras on this page (on the shore) stand outside
+         it and the water in frame 1 is inside it.</pre></details></li>
+      <li class="claim-row is-fact"><span class="chip-state">method: </span><p>How the relief above is drawn.</p><details class="receipt" id="receipt-relief"><summary>Receipt</summary><pre data-receipt="relief">picture   The valley's relief, drawn from the engine's terrain tiles (USGS
+          lidar). Not a game frame.
+manifest  quinault-geo-v2, sha256
+          14b0a41d853490763d1ba814067538353f445e2618f448d52c9e6b13de00e71c
+tiles     120 fine tiles at 2 m, each checked against the manifest;
+          their hashes in order hash to 31bc277bdf6cb5b3
+extent    15 x 8 km, north up, 4 m per pixel
+method    2 x 2 block mean of the 2 m nodes; Horn (1981) hillshade, light
+          from azimuth 315 deg at 45 deg altitude; land grey 24 + 231 x
+          max(0, cos), so black is water only: lake and river nodes, which
+          the survey flattens and whose bed is unknown; no colour,
+          atmosphere or grade
+check     969549 black cells = 969549 water + 0 no-data cells
+tool      tools/relief.py in this repository, Python standard library only
+master    PNG 3750 x 2000 grey, sha256
+          fac0857517e0b04214a5843cb539f9580ee9cd883c70f9f43a4e68f06c9591ea
+          pixel data sha256 d04bb6559e15efc15608402ff79393b8334e34c83119d34f29969e1d33121076
+published relief-1280.webp 1280x682 sha256
+          89e1021887f74cae57346490fe1c0423be3267b1d19dce1d646561753a9a787d
+published relief-1920.webp 1920x1024 sha256
+          c550e145b563f5a8817b1da70bebc920666214c221f1aae462715e126d73233d
+published relief-1920.jpg 1920x1024 sha256
+          611049176e40ec2afabc6191fd89e02687d277e7d287824ee92bca4495063c6a
+published relief-2560.webp 2560x1366 sha256
+          67b16cad30ea340de3eecffbeacb8733919a8a3696a419b124a958250adc23c4
+published relief-3750.webp 3750x2000 sha256
+          69ebaa9e64c0b42befb154bf382d84ece6c1202e368ae28d3f71446a74eb6ba7
+heights   height-8m.png 1875 x 1000, 8 m; height-16m.png 937 x 500, 16 m (phones)
+          R x 256 + G = height above NAVD88 0 in 5 cm steps; B = 255 for water;
+          means of the cells above; lit live in your browser by the same
+          method (Horn's 3 x 3 kernel, grey 24 + 231 x max(0, cos)) from
+          these heights, with a lamp moved as you scroll (not the sun)
+          rgb sha256 87afc2b599b109d850164dedd586d16eb506ed8743a60685afb2d514a795ea93
+                     a7ab9fcf1c396ed8cb018aa6470f30e69d19004f98ac6de8d3151d27ed8daa02
+published height-8m.png sha256
+          ea7ee6f218052df3596042dab2badc8bd11532d94fcc65b72edae9447650bcd6
+published height-16m.png sha256
+          e8b678570eb1772a0ab211d1353ebe333231eddb02fb9881b9cbe84d2b9c3476
+marks     camera positions and fields of view copied from each frame's receipt</pre></details></li>
+    </ol>
+  </section>
+
+  <section class="road" id="roadmap">
+    <h2>Roadmap</h2>
+    <p class="legend-inline"><span class="chip is-pass">passes today</span><span class="chip is-work">in work</span><span class="chip is-next">next</span></p>
+    <!-- roadmap:begin -->
+    <ol class="roadmap">
+      <li class="rm-row"><span class="rm-track">Engine</span><ol class="rm-chips"><li class="chip is-pass"><span class="chip-state">passes today: </span>Replay to the same checksum <a class="chip-receipt" href="#receipt-replay">Receipt</a></li><li class="chip is-pass"><span class="chip-state">passes today: </span>Water by shallow-water exams <a class="chip-receipt" href="#receipt-water">Receipt</a></li></ol></li>
+      <li class="rm-row"><span class="rm-track">Bodies</span><ol class="rm-chips"><li class="chip is-work"><span class="chip-state">in work: </span>legs carry each measured body</li><li class="chip is-next"><span class="chip-state">next: </span>contact forces from matter</li><li class="chip is-next"><span class="chip-state">next: </span>falls and stepping over logs</li><li class="chip is-next"><span class="chip-state">next: </span>arms and hands that grip</li></ol><details class="rm-more"><summary>More</summary><p>Next, in order: contact between bodies and solids as forces from the matter that meets; stepping over logs and roots, and falls when a foot is caught; step timing from the body&#x27;s own energy cost; arms and hands that reach and grip under the same law; segment masses from each body&#x27;s own measurements instead of a sex label.</p><p class="issue">epic #1489</p></details></li>
+      <li class="rm-row"><span class="rm-track">Forest</span><ol class="rm-chips"><li class="chip is-work"><span class="chip-state">in work: </span>forest floor plant cover</li><li class="chip is-work"><span class="chip-state">in work: </span>one stem profile per tree</li><li class="chip is-next"><span class="chip-state">next: </span>missing species, standing dead</li><li class="chip is-next"><span class="chip-state">next: </span>berry shrubs, fruit in season</li><li class="chip is-next"><span class="chip-state">next: </span>trees beyond the lidar area</li></ol><details class="rm-more"><summary>More</summary><p>Next for the forest, in order: the measured plant cover of the forest floor at every distance; one stem profile per tree, read by contact, sight, fire warmth, wood and the drawn trunk; the missing species and standing dead trees; berry shrubs whose fruit is food in season; trees beyond the lidar survey area; leaves that change and fall with the seasons.</p><p class="issue">epic #1208</p></details></li>
+      <li class="rm-row"><span class="rm-track">Forest life</span><ol class="rm-chips"><li class="chip is-work"><span class="chip-state">in work: </span>tree mass from field data</li><li class="chip is-work"><span class="chip-state">in work: </span>tree growth from absorbed light</li><li class="chip is-next"><span class="chip-state">next: </span>seeds that take root</li><li class="chip is-next"><span class="chip-state">next: </span>dead trees that rot</li><li class="chip is-next"><span class="chip-state">next: </span>animals in the same book</li></ol><details class="rm-more"><summary>More</summary><p>Next for the life cycle, in order: measured trees that grow from the light they absorb and the water they take up, with the free regrowth of food removed; seeds that fall, wait for spring and take root by seedbed, best on rotting logs; dead trees that stand, fall and rot into the next seedbed; the same book for animals once bodies can be born and die; fungi that feed on decay or on living trees.</p><p class="issue">epic #1546</p></details></li>
+      <li class="rm-row"><span class="rm-track">Animals</span><ol class="rm-chips"><li class="chip is-work"><span class="chip-state">in work: </span>hair in wind and water</li><li class="chip is-next"><span class="chip-state">next: </span>hair touching skin and ground</li><li class="chip is-next"><span class="chip-state">next: </span>GPU cost per head</li></ol><details class="rm-more"><summary>More</summary><p>Next, in order: measure the cost of hair and fur on the GPU for each head, inside equal frame-time tiers. Add contact between strands, and between strands and the body, through the one contact law. Add the drag a fibre feels in still air when it oscillates (unsteady Stokes drag), the friction of air along a fibre, and the fibre&#x27;s own material damping. Then strands drawn on a head, the law&#x27;s first reader, and one review of the whole rod law. Later the same law carries grass, twigs and ropes.</p><p class="issue">epic #1460</p></details></li>
+      <li class="rm-row"><span class="rm-track">Animal calls</span><ol class="rm-chips"><li class="chip is-work"><span class="chip-state">in work: </span>owl hoot from bird physics</li><li class="chip is-next"><span class="chip-state">next: </span>owl calls at night</li><li class="chip is-next"><span class="chip-state">next: </span>forest falls silent near danger</li></ol><details class="rm-more"><summary>More</summary><p>Next, in order: one law of sound for a bird&#x27;s vocal organ and tract, and for an insect&#x27;s stridulation, with only each species&#x27; motor gestures fitted to openly licensed recordings. First a barred owl perched in the forest, calling at night and dawn, its call compared with published measurements and with held-out recordings in a blind test. Then a dawn songbird recorded at the valley in October, crickets only where the season and temperature allow, and alarm calls and silence when an animal perceives a predator or a person.</p><p class="issue">epic #1541</p></details></li>
+      <li class="rm-row"><span class="rm-track">Building</span><ol class="rm-chips"><li class="chip is-work"><span class="chip-state">in work: </span>building from felled logs</li><li class="chip is-next"><span class="chip-state">next: </span>first night survival</li><li class="chip is-next"><span class="chip-state">next: </span>autumn food</li><li class="chip is-next"><span class="chip-state">next: </span>character editor</li></ol><details class="rm-more"><summary>More</summary><p>Next, in order: a player lays out a building plan that no law reads, and real felled logs fill it one by one through the one construction law. Then the first night of a survival world: heat, fire and shelter decide whether a body reaches dawn. Then autumn food: a carried ration, then fish cooked on a fire. Then a character editor that sets a body&#x27;s birth inputs inside the ANSUR II survey of US Army personnel, so that its build sets its gait, its load and its cold tolerance. That survey holds no elderly or disabled bodies, so the editor cannot make them yet; player bodies are always adults.</p><p class="issue">epic #1484</p></details></li>
+      <li class="rm-row"><span class="rm-track">Vehicles</span><ol class="rm-chips"><li class="chip is-work"><span class="chip-state">in work: </span>Pickup engine and gearbox</li><li class="chip is-work"><span class="chip-state">in work: </span>Fuel economy against EPA</li><li class="chip is-next"><span class="chip-state">next: </span>Park, reverse and starter</li><li class="chip is-next"><span class="chip-state">next: </span>Vehicles in the shared world</li><li class="chip is-next"><span class="chip-state">next: </span>Tyre rolling resistance measured</li></ol><details class="rm-more"><summary>More</summary><p>Next for aviation and vehicles, in order. The pickup gets a gear selector with park, reverse and neutral, and a starter, so a stalled engine or an empty tank can be recovered. Vehicles are then born in the shared world on its real terrain and breathe its air. The fuel-economy exams against public EPA measurements are reworked part by part, each declared part replaced only by a measured one chosen by a rule written beforehand. Then road-load measurement of tyre rolling resistance, more vehicles on the same law, and the airliner sharing it.</p><p class="issue">epic #1448</p></details></li>
+    </ol>
+    <!-- roadmap:end -->
+    <p class="aim">Not caused yet, and named so: bodies moved by animation clips, grove regrowth, forest transpiration, the parentless newborn and the plants&#x27; intake. Nothing in work or next is claimed until it passes its exam. The game is paused until bodies move by cause, and invites no one to play until then.</p>
+  </section>
+</main>
+
+<footer>
+  <p>Baryon Engine is independent and non-commercial. This page sets no cookies and loads nothing from anyone else; its host, GitHub Pages, keeps its own server logs.</p>
+  <p>Pictures and text: CC BY-NC-ND 4.0. Code: MIT. Terrain: USGS 3DEP and NHD, public domain.</p>
+</footer>
+
+</body>
+</html>

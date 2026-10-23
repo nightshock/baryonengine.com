@@ -1,0 +1,25 @@
+picture   The camp clearing near the south shore, looking south to the
+          forest edge.
+build     d912eae4b, release build
+binary    sha256
+          55cb2dbe85ecfb852cc4fe8ddd2c7b3c215ad76a052594010cc2818139982000
+rendered  2026-10-22 19:34:29 UTC, Mac mini (Apple Silicon), exit 0
+camera    47.47028 N, 123.84115 W (+/- 1 m); 1.6 m above the ground (+/-
+          0.05 m); azimuth 180.0 deg true (+/- 0.5 deg); pitch -4.0 deg
+          (+/- 0.5 deg); horizontal field of view 71.3 deg (+/- 1 deg)
+world     quinault-geo-v2; tick 291; world checksum 6edab2fc41afc31
+note      The stone ring and the logs are still plain shapes.
+master    PNG, sha256
+          e364a2a1ab9484f129c776e0de81b3651d1bf9cf13668f2892c99204c45a0995
+transform crop none; resize lanczos; webp cwebp -q 82 -m 6 -metadata none;
+          jpeg ffmpeg mjpeg q 3; no grade
+published clearing-828.webp 828x518 sha256
+          18cfbabbc1161c1d46d377139187dd74ca3381d0f975eae6de827401ace4f855
+published clearing-828.jpg 828x518 sha256
+          5085d713e3f38f0b4870b0a1647b94e0673cc31fc98151749e9b71ae4da1e126
+published clearing-1440.webp 1440x900 sha256
+          58317762426a19481fd87c33136ab20cc647a3a531cb912b77b4bbcb8a9e1edd
+published clearing-1440.jpg 1440x900 sha256
+          b174f6a5c704c6d2c2fdb949a55d8d78f9f72cc2a955933834240e5deaab24fb
+checked   No person in frame. The dark shapes at the forest edge are
+          ferns, checked under magnification.

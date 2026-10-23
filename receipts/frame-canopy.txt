@@ -1,0 +1,23 @@
+picture   The canopy, seen from below.
+build     d912eae4b, release build
+binary    sha256
+          55cb2dbe85ecfb852cc4fe8ddd2c7b3c215ad76a052594010cc2818139982000
+rendered  2026-10-22 19:37:04 UTC, Mac mini (Apple Silicon), exit 0
+camera    47.47125 N, 123.84112 W (+/- 1 m); 1.6 m above the ground (+/-
+          0.05 m); azimuth 0.0 deg true (+/- 0.5 deg); pitch 62.0 deg (+/-
+          0.5 deg); horizontal field of view 63.0 deg (+/- 1 deg)
+world     quinault-geo-v2; tick 356; world checksum c426ac687bb49015
+note      The branch stubs are still stylised.
+master    PNG, sha256
+          8127f201d57e4b4a7c8789b3706f250a4644b4782cdbc1a046b41b01b89ffdc1
+transform crop none; resize lanczos; webp cwebp -q 82 -m 6 -metadata none;
+          jpeg ffmpeg mjpeg q 3; no grade
+published canopy-828.webp 828x518 sha256
+          b896ccb0ebdda2d1169a48c68a200a89c16df031eb4288a9bfd451293ebb61f2
+published canopy-828.jpg 828x518 sha256
+          ad0ca788e44631467ef7087ced50f4b23d1daaba56f8bba8b67bb049c5ee6a20
+published canopy-1440.webp 1440x900 sha256
+          c04346a3d017644e9b6e11bd626c17981c1ace2d2c5781f4d1d441573993e830
+published canopy-1440.jpg 1440x900 sha256
+          85857d704857da2a7f16d9ba14718e727bffa89086437bb053699f0bedaf7764
+checked   No person in frame, checked by eye at full size.

@@ -1,0 +1,14 @@
+name: check
+on: [pull_request, push]
+permissions:
+  contents: read
+jobs:
+  check:
+    # Hosted runners are not billed for this private draft; the gate runs locally
+    # (python3 -I tools/check.py) until the repository is public.
+    if: ${{ !github.event.repository.private }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: sudo apt-get update -q && sudo apt-get install -y -q libimage-exiftool-perl ffmpeg
+      - run: python3 -I tools/check.py
